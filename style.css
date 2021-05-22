@@ -1,0 +1,326 @@
+*{
+    margin: 0px;
+}
+.page-wrapper{
+    width: 100%;
+    background-color: white;    
+}
+body{
+    font-family: Arial,"Times New Roman";
+    font-size: 13px;
+}
+.header-wrapper{
+    width: 100%;
+    background-color: #7dd9e8;
+    display: inline-block;
+}
+.top-header{
+    width: 70%;
+    background-color: #7dd9e8;
+    padding: 15px 0px;
+    padding-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.top-header-left-container{
+    width: 25%;
+    overflow: hidden;
+    float: left;
+    padding: 5px 0px;
+}
+.search-bar{
+    width: auto;
+    padding: 25px 0px;
+    float: left;
+}
+.search-bar input{
+    width: 270px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+.search-button-box input{
+    width: auto;
+    border-radius: 20px;
+    background-color: #255056;
+    color: white;
+}
+.search-button-box{
+    width: auto;
+    float: left;
+    padding: 24px 0px;
+    padding-bottom: 0px;
+}
+.top-header-right-container a{
+    font-family: sans-serif;
+    color: black;
+    font-size: 13px;
+}
+.top-header-right-container{
+    width: 30%;
+    float: right;
+    padding: 15px 0px;
+    padding-bottom: 0px;
+    text-align: right;
+    font-size: 17px;
+    margin-right: 10px;
+}
+.bottom-header{
+    background-color: whitesmoke;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0px;
+    padding-top: 0px;
+}
+.bottom-header-container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+    padding: 10px 0px;
+    padding-bottom: 15px; 
+}
+.bottom-header-left-container{
+    width: 100%;
+    padding:0px;
+}
+.list1{
+    width: 12.6%;
+    background-color: whitesmoke;
+    padding: 0px;
+    padding-right: 5px;
+    color: black;
+    display: inline;
+    float: left
+}
+.list2{
+    width: 11.1%;
+    background-color: whitesmoke;
+    padding: 0px;
+    padding-left: 20px;
+    display: inline;
+    float: left;
+}
+.list3{
+    width: 7.6%;
+    background-color: whitesmoke;
+    padding: 0px;
+    padding-left: 20px;
+    display: inline;
+    float: left;
+}
+.list4{
+    width: 13%;
+    background-color: whitesmoke;
+    padding: 0px;
+    display: inline;
+    float: left;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.list5{
+    width: 1.5%;
+    float: right;
+    margin-right: 5px;
+}
+.list6{
+    width: 12%;
+    float: right;
+    margin-right: 15px;
+}
+.list7{
+    width: 1.5%;
+    float: right;
+    margin-right: 10px;
+}
+.list8{
+    width: 13%;
+    float: right;
+    margin-right: 10px;
+    color: gray;
+}
+.body-wrapper{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;
+    margin-top: 2.5%;
+    display: inline-block;
+}
+.body-left-container{
+    width:20%;
+    background-color: whitesmoke;
+    float: left;
+}
+.body-left-container-top{
+    width: auto;
+}
+.box-topic{
+    background-color: #2fc1da;
+    color: white;
+    width: 93.5%;
+    padding: 13px 0px;
+    padding-left: 12px;
+    font-size: 15px;
+}
+.box-1{
+    width: 90%;
+    padding: 0px 0px;
+    padding-left: 12px;
+    background-color: whitesmoke;
+    
+}
+.recent-search{
+    width: 76%;
+    padding: 8px 0px;
+    padding-bottom:10px;
+    margin-left: 0px;
+    display: inline-block;
+    font-size: 11px;
+}
+.download-logo{
+    display: inline-block;
+    padding: 10px 5px;
+    padding-left: 20px;
+    vertical-align: top;
+}
+.three-menu-button{
+    display: inline-block;
+    padding: 10px 5px;
+    padding-left: 20px;
+    vertical-align: top;
+}
+.body-middle-container{
+    width: 60%;
+    float: left;
+    display: inline;
+    margin-left:auto;
+    margin-right: auto;
+}
+.middle-topic{
+    width: auto;
+    background-color: white;
+}
+.entries{
+    float: left;
+    margin-right: 25.3px;
+    background-color: whitesmoke;
+}
+.suscribed{
+    float: right;
+}
+.member-topic{
+    margin-top: -3px;
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 28px 0px;
+    padding-top: 0px;
+    border-bottom: 3px solid #2fc1da ;
+}
+
+
+.img1-member{
+    float: left;
+    margin-right: 30px;
+}
+.img2-member{
+    float: left;
+    margin-right: 40px;
+}
+.img3-member{
+    float: left;
+    margin-right: 40px;
+}
+.img4-member{
+    float: right;
+}
+.middle-container{
+    width: 100%;
+
+}
+.useraccount-1{
+    background-color: white;
+    padding: 10px 0px;
+    padding-left: 10px;
+    width: 100%;
+    border-bottom: 1px solid  gray;
+
+}
+.user-pic{
+    width: 13%;
+    padding: 0px;
+    display: inline-block;
+}
+img.user-1{
+    overflow: hidden;
+}
+.info-box{
+    width: 80%;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 10px;
+}
+a#userac-link{
+    color: #2fc1da ;
+}
+a#subscribe{
+    color: green;
+}
+.body-right-container{
+    width: 20%;
+    float: right;
+    height: 80vh;
+    background-color: whitesmoke;
+}
+.body-right-container-list{
+    width: auto;
+    padding: 10px 0px;
+}
+.box-1:hover{
+    background: white;
+}
+.box-2{
+    width: 90%;
+    padding: 8px 0px;
+    padding-left: 18px;
+    background-color: whitesmoke;
+}
+.box-2hover{
+    width: 90%;
+    padding: 0px 0px;
+}
+.box-2hover:hover{
+    background-color: white;
+}
+.body-right-list{
+    width: auto;
+    padding: 0px;
+}
+.footer-wrapper{
+    background-color: gray;
+   width: 100%;
+   padding: 15px 0px;
+   margin: 0px;
+}
+.footer-list{
+    background-color: gray;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding:10px 0px;
+    display: inline-block
+
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    display: inline;
+    margin-left: 20px;
+}
+p{
+    display: inline-block;
+    margin-left: 210px;
+}
